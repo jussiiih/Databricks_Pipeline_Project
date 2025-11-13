@@ -1,0 +1,12 @@
+[
+  {"order_id": 1, "Date": "2025-11-01", "Time": "09:15:23", "customer_id": 101},
+  {"order_id": 2, "Date": "2025-11-01", "Time": "10:42:55", "customer_id": 102},
+  {"order_id": 3, "Date": "2025-11-02", "Time": "14:30:10", "customer_id": 103},
+  {"order_id": 4, "Date": "2025-11-02", "Time": "16:10:44", "customer_id": 101},
+  {"order_id": 5, "Date": "2025-11-03", "Time": "11:05:37", "customer_id": 104},
+  {"order_id": 6, "Date": "2025-11-03", "Time": "13:22:09", "customer_id": 105},
+  {"order_id": 7, "Date": "2025-11-04", "Time": "08:50:17", "customer_id": 106},
+  {"order_id": 8, "Date": "2025-11-04", "Time": "17:45:03", "customer_id": 102},
+  {"order_id": 9, "Date": "2025-11-05", "Time": "12:30:59", "customer_id": 107},
+  {"order_id": 10, "Date": "2025-11-06", "Time": "15:00:21", "customer_id": 110}
+]
