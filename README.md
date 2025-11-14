@@ -2,6 +2,9 @@
 
 This pipeline was created for a Databricks Academy course using SQL. It processes data stored in the internal `raw_data` volume, where .json files are added. The raw data includes information about customers, orders, and order statuses. All data is mock data generated with ChatGPT based on a schema defined by the developer. The pipeline follows the Medallion Architecture.
 
+## Pipeline Architecture
+<img width="2142" height="674" alt="Pipeline Architecture" src="https://github.com/user-attachments/assets/a2beca8b-23b5-4a0d-b3f1-a73b6c334361" />
+
 ## Pipeline Outputs
 
 ### **Bronze Tables**
@@ -22,5 +25,5 @@ This pipeline was created for a Databricks Academy course using SQL. It processe
 - delivered_orders_gold – materialized view showing only delivered orders
 - orders_3_gold – materialized view that aggregates the daily order count from orders_2_silver
 
-## Pipeline Architecture
-<img width="1620" height="613" alt="image" src="https://github.com/user-attachments/assets/9fb5cc01-ae2f-468e-b5e6-3103461ea1d1" />
+
+
