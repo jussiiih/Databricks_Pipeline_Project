@@ -24,7 +24,7 @@ This pipeline was created for a Databricks Academy course using SQL. It processe
 - current_order_status_gold – materialized view created from full_order_info_gold showing the current status of all orders
 - cancelled_orders_gold – materialized view showing only cancelled orders
 - delivered_orders_gold – materialized view showing only delivered orders
-- orders_3_gold – materialized view that aggregates the daily order count from orders_2_silver
+- orders_by_date_gold – materialized view that aggregates the daily order count from orders_2_silver
 
 
 
