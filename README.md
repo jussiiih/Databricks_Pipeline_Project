@@ -2,16 +2,17 @@
 
 Pipeline created for Databricks Academy course using SQL. Pipeline uses internal raw_data volum where .json files are added. Raw data contains data about customers, orders and status of the orders. Pipeline uses medallion architecture.
 
-##Pipeline creates
+## Pipeline creates
 **Bronze tables**
 - customers_1_bronze (streams data from raw_data/customers)
 - status_1_bronze (streams data from raw_data/status)
 - orders_1_bronze (streams data from raw_data/orders)
-- 
+  
 **Silver tables**
 - customers_1_silver
 - status_1_silver
 - orders_1_silver
+  
 **Gold tables**
 - 
 
