@@ -10,12 +10,12 @@ This pipeline was created for a Databricks Academy course using SQL. It processe
 - orders_1_bronze – streams data from raw_data/orders
 
 ### **Silver Tables**
-- customers_2_silver – streaming table that captures all changes in customer data
+- customers_2_silver – streaming table creted by using Auto CDC type 2, table captures all changes in customer data
 - status_2_silver – streaming table that cleans the bronze status table and applies several data quality constraints
 - orders_2_silver – streaming table that cleans the bronze orders table and applies several data quality constraints
 
 ### **Gold Tables**
-- current_customers_gold – materialized view showing only current customers
+- current_customers_gold – materialized view showing only current customers,
 - full_order_info_gold – materialized view joining orders with their status information
 - current_order_status_gold – materialized view created from full_order_info_gold showing the current status of all orders
 - cancelled_orders_gold – materialized view showing only cancelled orders
