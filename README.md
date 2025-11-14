@@ -3,7 +3,8 @@
 This pipeline was created for a Databricks Academy course using SQL. It processes data stored in the internal `raw_data` volume, where .json files are added. The raw data includes information about customers, orders, and order statuses. All data is mock data generated with ChatGPT based on a schema defined by the developer. The pipeline follows the Medallion Architecture.
 
 ## Pipeline Architecture
-<img width="2142" height="674" alt="Pipeline Architecture" src="https://github.com/user-attachments/assets/a2beca8b-23b5-4a0d-b3f1-a73b6c334361" />
+![pipeline skeema](https://github.com/user-attachments/assets/b50a0521-1b24-450a-a608-1b067a3bb8cc)
+
 
 ## Pipeline Outputs
 
