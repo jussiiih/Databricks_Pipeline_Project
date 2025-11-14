@@ -28,7 +28,7 @@ AS
   order_id
   FROM STREAM orders_1_bronze;
 
-CREATE OR REPLACE MATERIALIZED VIEW orders_3_gold
+CREATE OR REPLACE MATERIALIZED VIEW orders_by_date_gold
 TBLPROPERTIES (
   "quality" = "gold"
 )
